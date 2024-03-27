@@ -5,7 +5,7 @@ The goal of this coding challenge is you assess your front end developement skil
 1. Clone this repo
 2. Create a new branch, or fork of this repo
 3. When finished create a Pull request with set-up instructions and any explanations for your solution
-4. Please add the 'dev complete' label to your PR when dev is complete and ready for review
+4. Please add the `dev complete` label to your PR when dev is complete and ready for review
 
 ## Requirements
 - Use any framework of your choice (React, Vue, etc..)
