@@ -1,0 +1,85 @@
+$primary-color: #007bff
+$border-color: #ccc
+$navy-color: navy
+$background-grey: #f0f0f0
+
+.header
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  background-color: $background-grey
+  padding: 20px
+  z-index: 1000
+
+.header-container
+  display: flex
+  align-items: center
+  justify-content: space-between
+  width: 100%
+  margin: 0 auto
+
+.title
+  flex: 1
+  padding-left: 30px
+
+.logo
+  height: 70px
+  width: auto
+
+
+.dropdown
+  position: relative
+  display: inline-block
+  padding-right: 30px
+
+.dropdown-select
+  width: 200px
+  padding: 10px
+  border: none
+  border-bottom: 2px solid $navy-color 
+  background-color: transparent // Transparent background
+  font-size: 16px
+  color: #333
+  cursor: pointer
+  outline: none // Remove default focus outline
+
+.select-text 
+  padding-right: 35px
+
+.dropdown-options
+  position: absolute
+  top: calc(100% + 5px) 
+  left: 0
+  z-index: 10
+  display: none
+  background-color: #fff
+  border: 1px solid $navy-color 
+  border-top: none
+  border-radius: 5px // Rounded corners
+  width: 100%  
+  box-sizing: border-box  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) 
+
+.dropdown-option
+  padding: 10px
+  cursor: pointer
+
+.dropdown-option:hover
+  background-color: #f0f0f0 // Light gray background on hover
+  color: navy
+  
+
+.dropdown-options.show
+  display: block
+
+
+
+// Media query for mobile devices
+@media (max-width: 768px)
+  .header
+    padding: 15px
+
+  .logo
+    height: 50px
+    width: auto
