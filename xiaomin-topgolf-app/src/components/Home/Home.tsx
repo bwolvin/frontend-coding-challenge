@@ -65,7 +65,7 @@ const Home = () => {
         />
       )}
       {selectedOption && (
-        <div className={styles["home-dropdown"]}>
+        <div className={styles["home-location-card"]}>
           <LocationCard item={selectedOption} />
         </div>
       )}
