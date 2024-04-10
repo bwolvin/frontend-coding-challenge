@@ -1,10 +1,10 @@
 # Front-end Developer coding challenge
-This repo is for code challenge creating a location selection web application. The framework that used for this app is React, CSS preprocessor is SASS. It also included eslint rules, react testing library and it's using type script.
+This repo is for code challenge creating a location selection web application. The framework that used for this app is React, CSS preprocessor is SASS. It also included eslint rules, react testing library and it's using Type Script.
 
 ## Instructions To Run App
 1. Clone this repo
 2. Inside of `server`, do `npm install` then you can run server by `node index.cjs`
-3. Once server start running, inside of `xiaomin-topgolf-app`, aslo do `npm install` first, then make sure your node version is >= 18.17.0 (use `nvm` to switch between specific version you want), simply run `npm run dev` will start application.
+3. Once server start running, inside of `xiaomin-topgolf-app`, also do `npm install` first, then make sure your node version is >= 18.17.0 (use `nvm` to switch between specific version you want), simply run `npm run dev` will start application.
 4. Go to http://localhost:3002
 
 ## UI
