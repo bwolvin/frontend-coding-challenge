@@ -1,43 +1,13 @@
 # Front-end Developer coding challenge
-The goal of this coding challenge is you assess your front end developement skills (UI, Javascript, HTML, and CSS). You may design this layout in anyway you want but please be creative and add styling.
+This repo is for code challenge creating a location selection web application. The framework that used for this app is React, CSS preprocessor is SASS. It also included eslint rules, react testing library and it's using type script.
 
-## Instructions
+## Instructions To Run App
 1. Clone this repo
-2. Create a new branch, or fork of this repo
-3. When finished create a Pull request with set-up instructions and any explanations for your solution
-4. Please add the `dev complete` label to your PR when dev is complete and ready for review
+2. Inside of `server`, do `npm install` then you can run server by `node index.cjs`
+3. Once server start running, inside of `xiaomin-topgolf-app`, aslo do `npm install` first, then make sure your node version is >= 18.17.0 (use `nvm` to switch between specific version you want), simply run `npm run dev` will start application.
+4. Go to http://localhost:3002
 
-## Requirements
-- Use any framework of your choice (React, Vue, etc..)
-- The app must run
-- The app must have UI (part of this challenge is to see your HTML and CSS skills, so be creative as you want!)
-- You should use a CSS preprocessor or postprocessor, when you use CSS
-- It must be responsive in any way of your choosing
+## UI
+- When a location is clicked in the dropdown then populate the details like image, name of venue and even more. 
+<img width="1287" alt="Screenshot 2024-04-10 at 1 36 31 PM" src="https://github.com/xiaominH724/frontend-coding-challenge/assets/166642422/bcc50b89-5e82-49f4-8333-65a2dd09ff5a">
 
-## Challenge
-This will be a page that has a drop down list of top golf locations and the page will display details of a location when selected.
-
-- Start up express server that is set up and available for you to use by running
-
-  `NPM RUN SERVE`
-  
-- Use any javascirpt or framework you would like to fetch the location data at:
-
-  `localhost:3000/locations`
-
-  *Please note: The server will run on port 3000, you will need to run an additional script to start your app in whatever framework you choose.
-  
-- Use the response that comes back from this request to populate the drop down list
-- When a location is clicked in the dropdown then populate the page with the image, name of venue and any other data you would like. 
-
-## Bonus Points
-- Unit tests for Javascript
-- Simple state management
-- Add some sort of linting for code quality
-
-## Helpful Hints
-- Think about code re-use and scalability of the application for future features
-
-We will discuss your implementation for this challenge on the interview so please be prepared to explain your solution and talk about enhancements that could be made in the future.
-
-Good luck, and have fun!
