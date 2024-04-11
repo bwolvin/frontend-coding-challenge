@@ -1,0 +1,51 @@
+.card-container {
+  background-color: var(--white);
+  color: var(--black);
+  height: min-content;
+  min-width: 30rem;
+  padding: 0 2rem;
+  border-radius: 2rem;
+  margin-right: var(--grid-gutter);
+
+  .card-inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .image-container {
+      display: inherit;
+      justify-content: center;
+    }
+
+    .info-container {
+      display: inherit;
+      flex-direction: inherit;
+      margin-bottom: 2rem;
+      .info-name {
+        font-size: medium;
+        margin-bottom: 0.5rem;
+      }
+      .info-details {
+        font-size: small;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+      }
+      .info-features {
+        font-size: small;
+        font-weight: 500;
+      }
+      a:link {
+        margin-top: 0.5rem;
+        text-decoration: underline;
+      }
+    }
+
+    .buttons-container {
+      display: inherit;
+      flex-direction: inherit;
+
+      &[data-margin-bottom="true"] {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
