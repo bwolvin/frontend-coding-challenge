@@ -2,10 +2,8 @@
 The goal of this coding challenge is you assess your front end developement skills (UI, Javascript, HTML, and CSS). You may design this layout in anyway you want but please be creative and add styling.
 
 ## Instructions
-1. Clone this repo
-2. Create a new branch, or fork of this repo
-3. When finished create a Pull request with set-up instructions and any explanations for your solution
-4. Please add the `dev complete` label to your PR when dev is complete and ready for review
+1. Move into the Server directory and run: `NPM INSTALL` and `NPM RUN SERVE`
+2. Move into topgolf-app directory and run: `NPM INSTALL`, `NPM START`, and `NPM TEST`
 
 ## Requirements
 - Use any framework of your choice (React, Vue, etc..)
